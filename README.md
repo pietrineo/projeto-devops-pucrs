@@ -1,4 +1,4 @@
-# Task Manager API - DevOps PUCRS
+# Projeto Fase 1 - DevOps PUCRS
 
 Repositório do projeto acadêmico de DevOps da PUCRS. Este sistema consiste em uma API REST para gerenciamento de tarefas, com ênfase em práticas DevOps, CI/CD e Infraestrutura como Código.
 
