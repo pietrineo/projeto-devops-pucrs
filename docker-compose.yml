@@ -1,8 +1,11 @@
-version: '3.8'
+version: '3.9'
 
 services:
-  app:
-    build: .
+  api-tarefas:
+    image: pietrineo/devops-pucrs-app:latest
+    container_name: api-tarefas-hml
+    restart: always
     ports:
       - "8080:8080"
-    restart: unless-stopped
+    environment:
+      - SPRING_PROFILES_ACTIVE=homologacao
